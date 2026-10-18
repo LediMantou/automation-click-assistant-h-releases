@@ -1,21 +1,29 @@
-# 自动化点击助手H 更新仓库
+# 自动化点击助手H 1.0.0 / build 1
 
-**状态：仅发布准备，尚未公开发布。**
+**正式版本已发布。** H 是独立产品，不是 T 的更新版本。
 
-本仓库仅用于自动化点击助手H，独立于 T 的发布仓库。当前没有 App、DMG、ZIP、正式 Release 或公开 appcast。
+## 下载与更新
 
-## 已准备的更新身份
+- [GitHub 正式 Release](https://github.com/LediMantou/automation-click-assistant-h-releases/releases/tag/v1.0.0)
+- [自动化点击助手H-1.0.0.dmg](https://github.com/LediMantou/automation-click-assistant-h-releases/releases/download/v1.0.0/automation-click-assistant-h-mac-1.0.0.dmg)
+- [H 独立 Sparkle Feed](https://raw.githubusercontent.com/LediMantou/automation-click-assistant-h-releases/main/appcast.xml)
+- DMG：6241966 bytes；SHA256：`30c5979d47f597748fc8f0f2a87bfc18c74d4998db8eee93984dc9001289243a`。
+- Bundle ID：`com.ledimantou.BrowserClickAssistant.H`；Universal arm64 + x86_64，macOS 13 及以上。
 
-- 产品：自动化点击助手H
-- 版本起点：1.0.0 / build 1
-- Bundle ID：`com.ledimantou.BrowserClickAssistant.H`
-- 计划 Feed：`https://raw.githubusercontent.com/LediMantou/automation-click-assistant-h-releases/main/appcast.xml`
-- Sparkle Ed25519 公钥：`OnlG1hf41+2FMS/dKYA+3+IGqzfDlKtZRu5YSZlJVGo=`
-- Feed 与更新包必须分别签名，使用 HTTPS；不允许回退到 T 更新源。
-- 签名私钥只保留在发布者本机的独立 Keychain 账户，不进入此仓库。
+## 产品与授权
 
-## 上线门禁
+采用新版 SwiftUI 界面，仅闲模式、庄模式。每周期固定最多100个有效局；和局、未参与观察不计数，原安全保护可提前停止。八档倍投 n×2+n、动态筹码、PP selected、原生鼠标和全部安全停止机制保留。
 
-新候选需先完成用户真人启动、原设备授权和退出重开验收。只有用户另行批准正式上线后，才可创建 Release、上传安装包并部署已签名 appcast。当前计划 Feed 尚未部署，URL 不代表更新渠道已经上线。
+需要六位启动密码与有效在线授权。T/H 共用现有 AWS 卡密授权系统，同一 Mac 可复用原设备身份和设备名额；必要时由本人完成 macOS 原生 Keychain 重新授权，不重新激活来替代原身份。正常卡密到期属于授权生命周期。
 
-本仓库不包含产品源码；产品源码继续在 `LediMantou/automation-click-assistant` 的 H 开发分支管理。
+首次安装为独立空白配置，台子、Chrome Profile、日志和普通 Telegram 状态独立，不复制或覆盖 T。H 有独立签名更新通道，不会更新成 T。
+
+## 安装与验证边界
+
+将 DMG 内的“自动化点击助手H.app”拖入 Applications，由用户本人打开。普通 Ad Hoc，无 Apple Developer ID 或 Apple 公证；必要时按 [Apple 官方原生安全确认流程](https://support.apple.com/zh-cn/102445) 操作，不以清除 quarantine 或关闭 Gatekeeper 作为默认步骤。
+
+正式包来自同一份真人启动/原设备授权验收母本；发布阶段未重编译或重签 App。100局边界已有定向自动化验证，不宣称真人跑满100局。H 是首发，没有更早 H 正式版，真实跨版本安装记录为 NOT_RUN。
+
+## 源码记录
+
+共同产品仓库 [automation-click-assistant](https://github.com/LediMantou/automation-click-assistant)；H 产品 commit `a1ec41f9f1aeab049c2f6457f1b6ccc7e90ebb09`，开发分支 `codex/h-1.0.0`、正式分支 `release/h/1.0`、产品 tag `h/v1.0.0`。本发布仓库的 Release/tag 是 `v1.0.0`，属于另一套版本记录。T 正式渠道保持不变。
