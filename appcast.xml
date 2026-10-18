@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>自动化点击助手H</title>
+    <link>https://github.com/LediMantou/automation-click-assistant-h-releases</link>
+    <description>自动化点击助手H 独立正式更新</description>
+    <language>zh-CN</language>
+    <item>
+      <title>自动化点击助手H 1.0.0</title>
+      <link>https://github.com/LediMantou/automation-click-assistant-h-releases/releases/tag/v1.0.0</link>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h2>自动化点击助手H 1.0.0</h2><ul><li>仅闲模式、庄模式，最多100个有效局；和局不计数。</li><li>保留八档倍投、动态筹码识别和全部安全停止保护。</li><li>需要六位启动密码和有效在线授权；T/H共用卡密系统与原设备身份。</li><li>H独立配置与更新通道，不会更新成T。</li><li>普通Ad Hoc，无Apple Developer ID公证；首次安装按macOS原生安全流程确认。</li></ul>]]></description>
+      <enclosure url="https://github.com/LediMantou/automation-click-assistant-h-releases/releases/download/v1.0.0/automation-click-assistant-h-mac-1.0.0.dmg" sparkle:edSignature="XIduz5DV3nBn5uX2XexXTfrprMFrPsNxjC8kCx/H4pkLV2jXrJWH29LvsosFR4y4zdzItpyRgyArZs8+A+YLBA==" length="6241966" type="application/octet-stream"></enclosure>
+    </item>
+  </channel>
+</rss><!-- sparkle-signatures:
+edSignature: PxFZD0zg1BIBsxLHWS5f6KHDWu0uu1WS9SvSLRdiPD0GOmT/0zGbzy9mCgykXq66duWfkL3R1l35ZIX74sOOAA==
+length: 1846
+-->
