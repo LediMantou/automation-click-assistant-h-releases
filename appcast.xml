@@ -7,6 +7,15 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>自动化点击助手H 独立正式更新</description>
     <language>zh-CN</language>
     <item>
+      <title>自动化点击助手H 1.1.0</title>
+      <link>https://github.com/LediMantou/automation-click-assistant-h-releases/releases/tag/v1.1.0</link>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h2>原设备卡密自助续期</h2><ul><li>授权到期后，在原设备输入新购有效卡密自行续期。</li><li>保留原设备编号、序列号绑定和Keychain/P-256身份；新卡只能消费一次。</li><li>续期成功不会自动运行，仍需人工开始。</li><li>仅闲/庄与100有效局上限不变，保留全部安全停止保护。</li><li>首次激活、六位启动密码、重新验证及管理员续期保持兼容。</li></ul>]]></description>
+      <enclosure url="https://github.com/LediMantou/automation-click-assistant-h-releases/releases/download/v1.1.0/automation-click-assistant-h-mac-1.1.0.dmg" sparkle:edSignature="LNFX1UzRvGvWDkIQDvufNhhggtUwqfb7ENRuZSG+G1b+ADAXkJ9521hLv0x8rXQ64Ynaw0MEbiL4YEctQEQjAQ==" length="6280238" type="application/octet-stream" />
+    </item>
+    <item>
       <title>自动化点击助手H 1.0.0</title>
       <link>https://github.com/LediMantou/automation-click-assistant-h-releases/releases/tag/v1.0.0</link>
       <sparkle:version>1</sparkle:version>
@@ -17,6 +26,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: PxFZD0zg1BIBsxLHWS5f6KHDWu0uu1WS9SvSLRdiPD0GOmT/0zGbzy9mCgykXq66duWfkL3R1l35ZIX74sOOAA==
-length: 1846
+edSignature: XVgZgZ9rMimC/6ux3EdVC781TF8LjuckombpZr5V5yt9WmbyyXQVvWGBpBvHJntw1coE+eAw7vl62IcassLsBQ==
+length: 3039
 -->
