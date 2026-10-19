@@ -1,3 +1,14 @@
+## H 当前正式版本：1.1.0 / build 2
+
+原设备卡密自助续期已正式发布。产品提交 `48981e1268feca264699f5f883390a52fa84f838`，正式 refs `release/h/1.1` / `h/v1.1.0`。
+[Release](https://github.com/LediMantou/automation-click-assistant-h-releases/releases/tag/v1.1.0) · [DMG](https://github.com/LediMantou/automation-click-assistant-h-releases/releases/download/v1.1.0/automation-click-assistant-h-mac-1.1.0.dmg) · [独立签名 Feed](https://raw.githubusercontent.com/LediMantou/automation-click-assistant-h-releases/main/appcast.xml)。
+原两策略、100 有效局、Bundle ID、Keychain 身份及独立配置/Profile/更新通道不变。
+本轮仅发行元数据重封装/重签，未重新编译功能代码；正式 App 不与验收候选同字节。
+真人续期候选已由乐迪确认；真实跨版本 Sparkle 安装仍 NOT_RUN。AWS、发卡、真实续期和 PP 本轮均未操作。
+当前维护入口为 `文档/发布基线/H-1.1.0/`。下方 1.0.0 及更早记录完整保留为历史，不代表本次重复验收。
+
+---
+
 # 自动化点击助手H 1.0.0 / build 1
 
 **正式版本已发布。** H 是独立产品，不是 T 的更新版本。
