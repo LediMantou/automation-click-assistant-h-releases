@@ -1,3 +1,13 @@
+## 自动化点击助手H 1.2.0 / build 3（2026-10-24）
+
+[正式 Release](https://github.com/LediMantou/automation-click-assistant-h-releases/releases/tag/v1.2.0) · [DMG 下载](https://github.com/LediMantou/automation-click-assistant-h-releases/releases/download/v1.2.0/automation-click-assistant-h-mac-1.2.0.dmg) · [独立签名更新 Feed](https://raw.githubusercontent.com/LediMantou/automation-click-assistant-h-releases/main/appcast.xml)。
+最终 App 五项真人验收由乐迪确认 5/5 PASS；冻结 DMG 匿名完整下载及 SHA256、包内容/签名核验通过。
+远程诊断服务端已上线，客户端诊断默认关闭，仅用户知情并明确启用后上报。真实故障诊断送达及真实跨版本 Sparkle 安装仍 NOT_RUN。
+DMG SHA256：`79819c15c873600c68a3b6ff5b80df9a628306a3351df2a796f62e0eb00575ce`。Universal arm64 + x86_64、普通 Ad Hoc，非 Apple Developer ID 公证。原授权、策略、点击与安全停止规则保持。
+下方历史版本记录完整保留。
+
+---
+
 ## H 当前正式版本：1.1.0 / build 2
 
 原设备卡密自助续期已正式发布。产品提交 `48981e1268feca264699f5f883390a52fa84f838`，正式 refs `release/h/1.1` / `h/v1.1.0`。
