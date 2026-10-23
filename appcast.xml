@@ -6,6 +6,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/LediMantou/automation-click-assistant-h-releases</link>
     <description>自动化点击助手H 独立正式更新</description>
     <language>zh-CN</language>
+        <item>
+            <title>1.2.0</title>
+            <link>https://github.com/LediMantou/automation-click-assistant-h-releases/releases/tag/v1.2.0</link>
+            <pubDate>Fri, 23 Oct 2026 18:26:21 +0000</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## 自动化点击助手H 1.2.0 / build 3
+
+- 提供远程安全停止诊断入口：Chrome 窗口异常、致命筹码确认失败、授权异常。
+- 远程诊断服务端已上线；客户端诊断默认关闭，仅用户阅读告知并明确启用后才上报。真实故障诊断送达仍为 NOT_RUN。
+- 原六位启动密码、在线授权与续期、设备身份、Chrome 安全检查、筹码识别及 selected 校验、点击执行和安全停止保持不变。
+- H 保持两种策略及 100 有效局上限。
+- Universal arm64 + x86_64，macOS 13.0 及以上；普通 Ad Hoc 签名，不是 Apple Developer ID 公证。原独立 Sparkle 更新通道、公钥和手动更新策略不变。
+
+乐迪已确认本次最终重新签名 App 的五项真人验收 5/5 PASS：正常启动、原六位密码解锁、原设备授权、主界面、诊断默认关闭。
+本次公开发布只使用同一份冻结 App/DMG，没有重新编译、重签 App 或重新制作 DMG。
+
+DMG SHA256：`79819c15c873600c68a3b6ff5b80df9a628306a3351df2a796f62e0eb00575ce`。
+真实跨版本 Sparkle 安装：NOT_RUN。
+REAL_REMOTE_DIAGNOSTIC_DELIVERY=NOT_RUN。
+]]></description>
+            <enclosure url="https://github.com/LediMantou/automation-click-assistant-h-releases/releases/download/v1.2.0/automation-click-assistant-h-mac-1.2.0.dmg" length="8977443" type="application/octet-stream" sparkle:edSignature="nKrzS6txI/YoNiVz3Q9i9XsKPgE4Le3qWKI8je1hgT9WRTWdHiP5hHspfDX/JAUrfae+jRLXl5iYDiAeVmJmBw=="/>
+        </item>
     <item>
       <title>自动化点击助手H 1.1.0</title>
       <link>https://github.com/LediMantou/automation-click-assistant-h-releases/releases/tag/v1.1.0</link>
@@ -26,6 +50,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: XVgZgZ9rMimC/6ux3EdVC781TF8LjuckombpZr5V5yt9WmbyyXQVvWGBpBvHJntw1coE+eAw7vl62IcassLsBQ==
-length: 3039
+edSignature: xRYJomU16frFSWrWqsfWvkjNXgxoltgyzK0dyNaaS44xbXPvEItELIP38cSZU2/FbjIBEjJwQY8dji2R8xsRAA==
+length: 5034
 -->
