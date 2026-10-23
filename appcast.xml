@@ -7,6 +7,34 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>自动化点击助手H 独立正式更新</description>
     <language>zh-CN</language>
         <item>
+<title>自动化点击助手H 1.2.1</title>
+<pubDate>Fri, 23 Oct 2026 20:17:36 +0000</pubDate>
+<sparkle:version>4</sparkle:version>
+<sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+<sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+<description sparkle:format="markdown"><![CDATA[## 自动化点击助手H 1.2.1 / build 4
+
+- PP selected exact-token 白名单新增 bhg_bho，保留全部原标记，不使用模糊匹配或自动学习。
+- 增加最小 fail-closed 禁用保护：命中的 selected 按钮处于原生 disabled、继承禁用、aria-disabled 或 inert 状态时不确认选中金额，拒绝后续投注区点击。
+- 原完整筹码集合、唯一 selected、计划面额匹配、选筹码后确认、投注区点击前复核和窗口安全门禁保留。
+- 策略、倍投、有效局数、授权/Keychain、远程诊断默认关闭和 T/H 独立手动更新通道保持。
+- Universal arm64 + x86_64，macOS 13.0+；普通 Ad Hoc 签名。
+
+本补丁经乐迪明确批准，基于当前脱敏静态 DOM 证据及历史经验发布。筹码可操作状态为离线合成场景，不是 PP 真人动态验收。
+定向离线：DOM 96 项、Swift policy 103 项、fake clicker 11 场景通过；未重复完整历史业务回归。
+
+SELECTED_BHG_BHO_STATIC_DOM=OBSERVED
+SELECTED_BHG_BHO_DYNAMIC_REAL_PP=NOT_RUN
+REAL_PP_BET_CLICK=NOT_RUN
+REAL_APP_PASSWORD_UNLOCK=NOT_RUN
+REAL_ONLINE_AUTHORIZATION=NOT_RUN
+REAL_CROSS_VERSION_SPARKLE_INSTALL=NOT_RUN
+
+DMG SHA256：`0a4813eb1f4c4f8c0a5208fe2832f286d8e5ceff71be7bc96fa26f648b2560f0`。
+]]></description>
+<enclosure url="https://github.com/LediMantou/automation-click-assistant-h-releases/releases/download/v1.2.1/automation-click-assistant-h-mac-1.2.1.dmg" length="8989711" type="application/octet-stream" sparkle:edSignature="neukHfNwcRZE00KtkwqbywosrJUtamIlvaiCLZ/loa1xG5H3bH6tMnSzOSvW+dHj2xM8zmzoPdS72RVHJdfICA==" />
+</item>
+<item>
             <title>1.2.0</title>
             <link>https://github.com/LediMantou/automation-click-assistant-h-releases/releases/tag/v1.2.0</link>
             <pubDate>Fri, 23 Oct 2026 18:26:21 +0000</pubDate>
@@ -50,6 +78,6 @@ REAL_REMOTE_DIAGNOSTIC_DELIVERY=NOT_RUN。
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: xRYJomU16frFSWrWqsfWvkjNXgxoltgyzK0dyNaaS44xbXPvEItELIP38cSZU2/FbjIBEjJwQY8dji2R8xsRAA==
-length: 5034
+edSignature: 8I1Z5uGGLOgyzs/w6GEFw4kPF11iqFScQk/9Lfjc6LXAWx0r6vTqsZMd74Cjhf4r8PWeLj5Vshbsxbn8oqBVDw==
+length: 6960
 -->
